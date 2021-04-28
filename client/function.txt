@@ -1,9 +1,0 @@
-FileManager ---(createfile, createdir, removefile, removedir, rename, attr, list)
-Process ---(create, list, kill)
-users ---(create, list, remove)
-groups ---(create, list, remove)
-service
-sysinfo ---(system, network)
-remote shell
-programms ---(setup, running)
-host ---(shutdown, reboot)
