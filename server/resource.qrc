@@ -1,0 +1,36 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ico/cdrom.png</file>
+        <file>ico/computer.png</file>
+        <file>ico/dir.png</file>
+        <file>ico/download.png</file>
+        <file>ico/file.png</file>
+        <file>ico/filemanager.png</file>
+        <file>ico/groups.png</file>
+        <file>ico/hdd.png</file>
+        <file>ico/host.png</file>
+        <file>ico/info.png</file>
+        <file>ico/kill.png</file>
+        <file>ico/network.png</file>
+        <file>ico/next.png</file>
+        <file>ico/prev.png</file>
+        <file>ico/process.png</file>
+        <file>ico/programms.png</file>
+        <file>ico/refresh.png</file>
+        <file>ico/remotedisk.png</file>
+        <file>ico/remove.png</file>
+        <file>ico/screenshot.png</file>
+        <file>ico/server.png</file>
+        <file>ico/service.png</file>
+        <file>ico/shell.png</file>
+        <file>ico/stop.png</file>
+        <file>ico/sysinfo.png</file>
+        <file>ico/title.ico</file>
+        <file>ico/upload.png</file>
+        <file>ico/usb.png</file>
+        <file>ico/users.png</file>
+        <file>ico/home.png</file>
+        <file>ico/block_user.png</file>
+        <file>ico/password.png</file>
+    </qresource>
+</RCC>

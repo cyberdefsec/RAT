@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="reveseRAT" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/reveseRAT" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-liphlpapi" />
+					<Add option="-lpsapi" />
+					<Add option="-lws2_32" />
+					<Add option="-lnetapi32" />
+					<Add option="-lgdi32" />
+					<Add option="-static" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/reveseRAT" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-liphlpapi" />
+					<Add option="-lpsapi" />
+					<Add option="-lws2_32" />
+					<Add option="-lnetapi32" />
+					<Add option="-lgdi32" />
+					<Add option="-static" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="commander.cpp" />
+		<Unit filename="commander.h" />
+		<Unit filename="common.h" />
+		<Unit filename="disk.cpp" />
+		<Unit filename="disk.h" />
+		<Unit filename="groups.cpp" />
+		<Unit filename="groups.h" />
+		<Unit filename="host.cpp" />
+		<Unit filename="host.h" />
+		<Unit filename="listdir.cpp" />
+		<Unit filename="listdir.h" />
+		<Unit filename="privileges.cpp" />
+		<Unit filename="privileges.h" />
+		<Unit filename="process.cpp" />
+		<Unit filename="process.h" />
+		<Unit filename="reverseRAT.cpp" />
+		<Unit filename="service.cpp" />
+		<Unit filename="service.h" />
+		<Unit filename="shell.cpp" />
+		<Unit filename="shell.h" />
+		<Unit filename="sysinfo.cpp" />
+		<Unit filename="sysinfo.h" />
+		<Unit filename="users.cpp" />
+		<Unit filename="users.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

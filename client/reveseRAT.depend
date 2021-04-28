@@ -1,0 +1,518 @@
+# depslib dependency file v1.0
+1616566832 source:d:\project\reveserat\listproc.c
+
+1616683550 source:d:\project\reveserat\reverserat.cpp
+	<iostream>
+	"reverseConnect.h"
+	"commander.h"
+
+1616588563 d:\project\reveserat\sysinfo.h
+	<vector>
+	"common.h"
+
+1616683467 d:\project\reveserat\common.h
+	<windows.h>
+	<stdbool.h>
+	<versionhelpers.h>
+	<iphlpapi.h>
+	<tlhelp32.h>
+	<psapi.h>
+	<winsvc.h>
+
+1616592582 source:d:\project\reveserat\listproc.cpp
+	<iostream>
+	"listproc.h"
+
+1616588567 source:d:\project\reveserat\sysinfo.cpp
+	<iostream>
+	"sysinfo.h"
+
+1616588991 d:\project\reveserat\listproc.h
+	<vector>
+	"common.h"
+
+1616596029 source:d:\project\reveserat\listdisk.cpp
+	"listdisk.h"
+
+1616595816 d:\project\reveserat\listdisk.h
+	<iostream>
+	<vector>
+	"common.h"
+
+1616680892 source:d:\project\reveserat\listdir.cpp
+	<iostream>
+	<fstream>
+	"listdir.h"
+
+1616680813 d:\project\reveserat\listdir.h
+	<vector>
+	"common.h"
+
+1616663059 source:d:\project\reveserat\disk.cpp
+	"disk.h"
+
+1616663067 d:\project\reveserat\disk.h
+	<iostream>
+	<vector>
+	"common.h"
+
+1616665969 d:\project\reveserat\process.h
+	<vector>
+	"common.h"
+
+1616666471 source:d:\project\reveserat\process.cpp
+	<iostream>
+	<stdbool.h>
+	"process.h"
+
+1616671814 source:d:\project\reveserat\service.cpp
+	<iostream>
+	"service.h"
+
+1616670904 d:\project\reveserat\service.h
+	<vector>
+	"common.h"
+
+1616683539 source:d:\project\reveserat\commander.cpp
+	"commander.h"
+
+1616681124 source:d:\project\reveserat\reverseconnect.cpp
+	<iostream>
+	"reverseConnect.h"
+	<winsock2.h>
+
+1616681116 d:\project\reveserat\reverseconnect.h
+	<stdint.h>
+	"common.h"
+
+1616682340 d:\project\reveserat\commander.h
+	<vector>
+	"common.h"
+	"sysinfo.h"
+	"process.h"
+	"disk.h"
+	"listdir.h"
+	"service.h"
+	"reverseConnect.h"
+
+1617029319 source:d:\project\reverserat\commander.cpp
+	"commander.h"
+
+1617348792 d:\project\reverserat\commander.h
+	<vector>
+	"common.h"
+	"sysinfo.h"
+	"process.h"
+	"disk.h"
+	"listdir.h"
+	"service.h"
+	"reverseConnect.h"
+	"shell.h"
+	"users.h"
+	"groups.h"
+	"host.h"
+
+1617355013 d:\project\reverserat\common.h
+	<windows.h>
+	<stdbool.h>
+	<versionhelpers.h>
+	<iphlpapi.h>
+	<tlhelp32.h>
+	<psapi.h>
+	<winsvc.h>
+	<wchar.h>
+
+1617269178 d:\project\reverserat\sysinfo.h
+	<vector>
+	"common.h"
+
+1616665969 d:\project\reverserat\process.h
+	<vector>
+	"common.h"
+
+1616663067 d:\project\reverserat\disk.h
+	<iostream>
+	<vector>
+	"common.h"
+
+1616680813 d:\project\reverserat\listdir.h
+	<vector>
+	"common.h"
+
+1617355679 d:\project\reverserat\service.h
+	<vector>
+	"common.h"
+
+1616681116 d:\project\reverserat\reverseconnect.h
+	<stdint.h>
+	"common.h"
+
+1617001671 source:d:\project\reverserat\disk.cpp
+	"disk.h"
+
+1617001632 source:d:\project\reverserat\listdir.cpp
+	<iostream>
+	<fstream>
+	"listdir.h"
+
+1616765452 source:d:\project\reverserat\privileges.cpp
+	"privileges.h"
+
+1616764963 d:\project\reverserat\privileges.h
+	"common.h"
+
+1617001652 source:d:\project\reverserat\process.cpp
+	<iostream>
+	<stdbool.h>
+	"process.h"
+
+1616681124 source:d:\project\reverserat\reverseconnect.cpp
+	<iostream>
+	"reverseConnect.h"
+	<winsock2.h>
+
+1617269348 source:d:\project\reverserat\sysinfo.cpp
+	<iostream>
+	"sysinfo.h"
+
+1617029173 source:d:\project\reverserat\groups.cpp
+	<iostream>
+	<windows.h>
+	<lmaccess.h>
+	<lm.h>
+	<stdlib.h>
+	<sddl.h>
+	<locale>
+	"groups.h"
+
+1617029220 d:\project\reverserat\groups.h
+	<windows.h>
+	<vector>
+	"common.h"
+
+1617357589 source:d:\project\reverserat\reverserat.cpp
+	<iostream>
+	"reverseConnect.h"
+	"commander.h"
+	"users.h"
+	"groups.h"
+
+1617028646 source:d:\project\reverserat\users.cpp
+	<iostream>
+	<windows.h>
+	<lmaccess.h>
+	<lm.h>
+	<stdlib.h>
+	<sddl.h>
+	"users.h"
+
+1617029197 d:\project\reverserat\users.h
+	<windows.h>
+	<vector>
+	"common.h"
+
+1617006192 d:\project\reverserat\shell.h
+	<stdio.h>
+	<stdlib.h>
+	"reverseConnect.h"
+
+1617195891 d:\project\reverserat\programms.h
+
+1617282231 d:\project\reverserat\host.h
+	<iostream>
+	"common.h"
+	"privileges.h"
+
+1617282841 source:d:\project\reverserat\host.cpp
+	"host.h"
+
+1617202302 source:d:\project\reverserat\programms.cpp
+	<iostream>
+	"common.h"
+	"programms.h"
+	"listdir.h"
+
+1617006192 source:d:\project\reverserat\shell.cpp
+	"shell.h"
+
+1617357469 source:d:\project\reverserat\service.cpp
+	<iostream>
+	<vector>
+	"service.h"
+	"privileges.h"
+
+1617693765 source:d:\project\rat\reverserat\commander.cpp
+	"commander.h"
+	<winsock2.h>
+
+1617689979 d:\project\rat\reverserat\commander.h
+	<vector>
+	"common.h"
+	"sysinfo.h"
+	"process.h"
+	"disk.h"
+	"listdir.h"
+	"service.h"
+	"shell.h"
+	"users.h"
+	"groups.h"
+	"host.h"
+
+1617692043 d:\project\rat\reverserat\common.h
+	<windows.h>
+	<stdbool.h>
+	<versionhelpers.h>
+	<iphlpapi.h>
+	<tlhelp32.h>
+	<psapi.h>
+	<winsvc.h>
+	<wchar.h>
+
+1617269178 d:\project\rat\reverserat\sysinfo.h
+	<vector>
+	"common.h"
+
+1616665969 d:\project\rat\reverserat\process.h
+	<vector>
+	"common.h"
+
+1616663067 d:\project\rat\reverserat\disk.h
+	<iostream>
+	<vector>
+	"common.h"
+
+1617369254 d:\project\rat\reverserat\listdir.h
+	<vector>
+	"common.h"
+
+1617357791 d:\project\rat\reverserat\service.h
+	<vector>
+	"common.h"
+
+1616681116 d:\project\rat\reverserat\reverseconnect.h
+	<stdint.h>
+	"common.h"
+
+1617691935 d:\project\rat\reverserat\shell.h
+	<stdio.h>
+	<stdlib.h>
+	"reverseConnect.h"
+
+1617029197 d:\project\rat\reverserat\users.h
+	<windows.h>
+	<vector>
+	"common.h"
+
+1617029220 d:\project\rat\reverserat\groups.h
+	<windows.h>
+	<vector>
+	"common.h"
+
+1617282231 d:\project\rat\reverserat\host.h
+	<iostream>
+	"common.h"
+	"privileges.h"
+
+1616764963 d:\project\rat\reverserat\privileges.h
+	"common.h"
+
+1617001671 source:d:\project\rat\reverserat\disk.cpp
+	"disk.h"
+
+1617361443 source:d:\project\rat\reverserat\groups.cpp
+	<iostream>
+	<windows.h>
+	<lmaccess.h>
+	<lm.h>
+	<stdlib.h>
+	<sddl.h>
+	<locale>
+	"groups.h"
+
+1617282841 source:d:\project\rat\reverserat\host.cpp
+	"host.h"
+
+1617001632 source:d:\project\rat\reverserat\listdir.cpp
+	<iostream>
+	<fstream>
+	"listdir.h"
+
+1616765452 source:d:\project\rat\reverserat\privileges.cpp
+	"privileges.h"
+
+1617001652 source:d:\project\rat\reverserat\process.cpp
+	<iostream>
+	<stdbool.h>
+	"process.h"
+
+1617632780 source:d:\project\rat\reverserat\reverseconnect.cpp
+	<iostream>
+	"reverseConnect.h"
+	<winsock2.h>
+
+1617696542 source:d:\project\rat\reverserat\reverserat.cpp
+	<iostream>
+	"commander.h"
+
+1617357787 source:d:\project\rat\reverserat\service.cpp
+	<iostream>
+	<vector>
+	"service.h"
+	"privileges.h"
+
+1617691931 source:d:\project\rat\reverserat\shell.cpp
+	<windows.h>
+	<string.h>
+	<dir.h>
+	"shell.h"
+
+1617632450 source:d:\project\rat\reverserat\sysinfo.cpp
+	<iostream>
+	"sysinfo.h"
+
+1617028646 source:d:\project\rat\reverserat\users.cpp
+	<iostream>
+	<windows.h>
+	<lmaccess.h>
+	<lm.h>
+	<stdlib.h>
+	<sddl.h>
+	"users.h"
+
+1619087427 source:d:\project\rat\client\commander.cpp
+	"commander.h"
+	<winsock2.h>
+	<io.h>
+
+1619084999 d:\project\rat\client\commander.h
+	<vector>
+	"common.h"
+	"sysinfo.h"
+	"process.h"
+	"disk.h"
+	"listdir.h"
+	"service.h"
+	"shell.h"
+	"users.h"
+	"groups.h"
+	"host.h"
+
+1619084962 d:\project\rat\client\common.h
+	<windows.h>
+	<stdbool.h>
+	<versionhelpers.h>
+	<iphlpapi.h>
+	<tlhelp32.h>
+	<psapi.h>
+	<winsvc.h>
+	<wchar.h>
+
+1618986922 d:\project\rat\client\sysinfo.h
+	<vector>
+	"common.h"
+
+1618508286 d:\project\rat\client\process.h
+	<vector>
+	"common.h"
+
+1616663067 d:\project\rat\client\disk.h
+	<iostream>
+	<vector>
+	"common.h"
+
+1618909425 d:\project\rat\client\listdir.h
+	<vector>
+	"common.h"
+
+1617357791 d:\project\rat\client\service.h
+	<vector>
+	"common.h"
+
+1617800075 d:\project\rat\client\shell.h
+	<stdio.h>
+	<stdlib.h>
+	"common.h"
+
+1616681116 d:\project\rat\client\reverseconnect.h
+	<stdint.h>
+	"common.h"
+
+1618987658 d:\project\rat\client\users.h
+	<windows.h>
+	<vector>
+	"common.h"
+
+1618835080 d:\project\rat\client\groups.h
+	<vector>
+	"common.h"
+
+1619083373 d:\project\rat\client\host.h
+	<iostream>
+	"common.h"
+	"privileges.h"
+
+1616764963 d:\project\rat\client\privileges.h
+	"common.h"
+
+1618230117 source:d:\project\rat\client\disk.cpp
+	"disk.h"
+
+1618907540 source:d:\project\rat\client\groups.cpp
+	<iostream>
+	<windows.h>
+	<lmaccess.h>
+	<lm.h>
+	<stdlib.h>
+	<sddl.h>
+	<locale>
+	"groups.h"
+
+1619084631 source:d:\project\rat\client\host.cpp
+	"host.h"
+
+1618909418 source:d:\project\rat\client\listdir.cpp
+	<iostream>
+	<fstream>
+	<string.h>
+	"listdir.h"
+
+1618498030 source:d:\project\rat\client\privileges.cpp
+	"privileges.h"
+	<iostream>
+
+1618498301 source:d:\project\rat\client\process.cpp
+	<iostream>
+	<stdbool.h>
+	"process.h"
+	"privileges.h"
+
+1619087427 source:d:\project\rat\client\reverserat.cpp
+	<iostream>
+	"commander.h"
+	"host.h"
+
+1617969366 source:d:\project\rat\client\service.cpp
+	<iostream>
+	<vector>
+	"service.h"
+	"privileges.h"
+
+1617800076 source:d:\project\rat\client\shell.cpp
+	<windows.h>
+	<string.h>
+	<dir.h>
+	"shell.h"
+
+1618986914 source:d:\project\rat\client\sysinfo.cpp
+	<iostream>
+	"sysinfo.h"
+
+1619073181 source:d:\project\rat\client\users.cpp
+	<iostream>
+	<windows.h>
+	<lmaccess.h>
+	<lm.h>
+	<stdlib.h>
+	<sddl.h>
+	"users.h"
+
